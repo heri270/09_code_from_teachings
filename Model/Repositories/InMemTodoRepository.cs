@@ -14,6 +14,8 @@ namespace TodoWebApi.Model.Repositories
         {
             todoList = new List<TodoItem>();
             todoList.Add(new TodoItem{TodoItemID = 1, Task = "First task 1", IsComplete = false});
+            todoList.Add(new TodoItem{TodoItemID = 2, Task = "First task 2", IsComplete = false});
+            todoList.Add(new TodoItem{TodoItemID = 3, Task = "First task 3", IsComplete = false});
         }
 
         public void Create(TodoItem item)
